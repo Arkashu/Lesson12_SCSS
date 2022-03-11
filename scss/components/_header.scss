@@ -1,0 +1,13 @@
+header{
+ background: $main-color;
+.come-div{
+  color: $font-color;
+  font-size: $font-size;
+  @extend %border-standart
+}
+  .some-sec-div{
+    color: $font-color;
+    background: $bg-second;
+    @extend %border-error
+  }
+}
